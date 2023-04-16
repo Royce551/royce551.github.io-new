@@ -27,17 +27,19 @@ module.exports = {
             'dark-control': '#30343B',
         },
         fontFamily: {
-            serif: ['Source Sans Pro 3', 'sans-serif'],
+            sans: ['Source Sans 3', 'sans-serif'],
         },
         fontSize: {
             sm: '12px',
             base: '15px',
-            'xl': '17px',
-            '2xl': '19px',
+            'xl': '24px',
+            '2xl': '32px',
         },
         extend: {
-
-        },
+            fontFamily: {
+                sourcesans: ['"Source Sans 3"']
+            }
+        }
     },
 
     plugins: []

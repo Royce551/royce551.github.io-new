@@ -3,4 +3,24 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-<p>Hello world nyaaaa</p>
+<div class="bg-secondary dark:bg-dark-secondary flex flex-nowrap overflow-x-scroll p-[20px] gap-8 snap-x snap-mandatory">
+    {% for item in site.posts %}
+        <div class="snap-center p-[20px] bg-control/50 dark:bg-dark-control/50 min-w-[90%] bg-control dark:bg-dark-control bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url('{{ item.thumbnail }}');">
+            <h1 class="text-xl font-bold">{{ item.title }}</h1>
+            <p>{{ item.excerpt }}</p>
+
+            <button class="bg-control dark:bg-dark-control p-[5px] mt-[100px] hover:bg-blue rounded-md">
+                Learn more
+            </button>
+        </div>
+    {% endfor %}
+</div>
+<div class="max-w-6xl m-auto py-[20px] px-[20px]">
+    <h1 class="text-xl font-bold">Welcome to the Squid House!</h1>
+    <p>This is the place for all of the apps and utilities I've made over the years. Hopefully you'll find some of them useful!</p>
+
+    <h2 class="text-xl font-bold py-[20px]">Flagship Projects</h2>
+    <p>nya</p>
+    <h2 class="text-xl font-bold py-[20px]">Others</h2>
+    <p>nya</p>
+</div>

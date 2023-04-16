@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}" class="bg-secondary dark:bg-dark-secondary text-primarytext dark:text-dark-primarytext transition-colors">
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap" rel="stylesheet">
+    <meta property="og:description" content="squiddy squiddy squid squid">
+    <meta property="og:site_name" content="Squid Grill">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://royce551.github.io">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
+</head>
 
-  <body class="">
+  <body class="font-sourcesans">
       {% include navigation.html %}
       <div class="bg-background dark:bg-dark-background transition-colors">
-          <div class="max-w-6xl m-auto py-[20px] px-[20px]">
-              {{ content }}
-          </div>
-         
+          {{ content }}
       </div>
       {% include footer.html %}
 
