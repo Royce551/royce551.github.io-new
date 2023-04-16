@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}" class="bg-secondary text-primarytext">
+<html lang="{{ site.lang | default: "en-US" }}" class="bg-secondary dark:bg-dark-secondary text-primarytext dark:text-dark-primarytext transition-colors">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
 
   <body class="">
       {% include navigation.html %}
-      <div class="bg-background">
+      <div class="bg-background dark:bg-dark-background transition-colors">
           <div class="max-w-6xl m-auto py-[20px] px-[20px]">
               {{ content }}
           </div>
