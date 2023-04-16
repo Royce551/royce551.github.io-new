@@ -1,0 +1,34 @@
+- name: FRESHMusicPlayer
+  description: the freshest music player out there
+  link: /FRESHMusicPlayer/
+  icon: /assets/images/fmplogo.svg
+  category: Featured
+- name: ShrimpBot
+  description: all purpose discord bot
+  link: https://github.com/royce551/shrimpbot
+  icon: 
+- name: squish
+  description: .NET Linux desktop environment
+  link: https://github.com/royce551/squish
+  icon:
+  category: Featured
+- name: FRESHJobs
+  description: extensible job manager with multitasking and scripting support (formerly Condownloader)
+  link: https://github.com/Royce551/Condownloader
+  icon: 
+  category: Featured
+- name: Squidphotos
+  description: speedy, easy to use image viewer that stays out of your way
+  link: https://github.com/Royce551/Squidphotos
+  icon: 
+  category: Other
+- name: Water
+  description: an attempt at a game framework, accompanying game to be figured out
+  link: https://github.com/Royce551/Panels
+  icon: 
+  category: Other
+- name: SIADL
+  description: the design language that forms the squid "brand"
+  link: /siadl.html
+  icon: 
+  category: Other
