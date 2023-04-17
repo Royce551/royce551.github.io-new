@@ -5,22 +5,32 @@ title: "Happy Jekylling!"
 
 <div class="bg-secondary dark:bg-dark-secondary flex flex-nowrap overflow-x-scroll p-[20px] gap-8 snap-x snap-mandatory">
     {% for item in site.posts %}
-        <div class="snap-center p-[20px] bg-control/50 dark:bg-dark-control/50 min-w-[90%] bg-control dark:bg-dark-control bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url('{{ item.thumbnail }}');">
+        <div class="snap-center px-[10px] lg:px-[80px] py-[100px] bg-foreground/50 dark:bg-dark-foreground/50 min-w-[100%] lg:min-w-[90%] bg-control dark:bg-dark-control bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url('{{ item.thumbnail }}');">
             <h1 class="text-xl font-bold">{{ item.title }}</h1>
             <p>{{ item.excerpt }}</p>
 
-            <button class="bg-control dark:bg-dark-control p-[5px] mt-[100px] hover:bg-blue rounded-md">
+            <button class="btn mt-[100px]">
                 Learn more
             </button>
         </div>
     {% endfor %}
 </div>
 <div class="max-w-6xl m-auto py-[20px] px-[20px]">
-    <h1 class="text-xl font-bold">Welcome to the Squid House!</h1>
+    <h1 class="text-xl font-bold pb-[20px]">Welcome to the Squid House!</h1>
     <p>This is the place for all of the apps and utilities I've made over the years. Hopefully you'll find some of them useful!</p>
 
-    <h2 class="text-xl font-bold py-[20px]">Flagship Projects</h2>
-    <p>nya</p>
-    <h2 class="text-xl font-bold py-[20px]">Others</h2>
-    <p>nya</p>
+    <div class="flex flex-wrap gap-2 flex-col pt-[20px]">
+        {% for item in site.data.projects %}
+        {% if item.category == "Featured" %}
+        <div class="bg-foreground dark:bg-dark-foreground rounded-lg px-[50px] py-[20px] h-[300px] w-[100%] hover:bg-blue">
+            <img src="{{ item.wordmark }}" alt="{{ item.name }}" class="w-[350px] md:w-[500px]" />
+            <span class="py-[20px]">{{ item.description }}</span><br />
+
+            <button class="btn mt-[70px]">
+                Project page
+            </button>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>

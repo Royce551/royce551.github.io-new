@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\css",
     "\\assets\\images",
     "\\assets\\images\\fmp",
     "\\_data",
@@ -10,6 +11,5 @@
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_data\\navigation.yml",
   "PreviewInSolutionExplorer": false
 }
