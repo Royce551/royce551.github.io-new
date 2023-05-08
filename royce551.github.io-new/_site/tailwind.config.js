@@ -32,8 +32,9 @@ module.exports = {
         fontSize: {
             sm: '12px',
             base: '15px',
-            'xl': '24px',
-            '2xl': '32px',
+            md: '24px',
+            'xl': '32px',
+            '2xl': '48px',
         },
         extend: {
             fontFamily: {

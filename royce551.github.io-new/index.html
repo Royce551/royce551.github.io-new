@@ -6,7 +6,7 @@ title: "Happy Jekylling!"
 <div class="bg-secondary dark:bg-dark-secondary flex flex-nowrap overflow-x-scroll p-[20px] gap-8 snap-x snap-mandatory">
     {% for item in site.posts %}
         <div class="snap-center px-[10px] lg:px-[80px] py-[100px] bg-foreground/50 dark:bg-dark-foreground/50 min-w-[100%] lg:min-w-[90%] bg-control dark:bg-dark-control bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url('{{ item.thumbnail }}');">
-            <h1 class="text-xl font-bold">{{ item.title }}</h1>
+            <h1 class="text-md font-bold">{{ item.title }}</h1>
             <p>{{ item.excerpt }}</p>
 
             <button class="btn mt-[100px]">
@@ -20,9 +20,20 @@ title: "Happy Jekylling!"
     <p>This is the place for all of the apps and utilities I've made over the years. Hopefully you'll find some of them useful!</p>
 
     <div class="flex flex-wrap gap-2 flex-col pt-[20px]">
-        {% for item in site.data.projects %}
+        <a href="/FRESHMusicPlayer/">
+            <div class="rounded-lg px-[50px] py-[20px] h-[300px] w-[100%] hover:ring-4 ring-blue bg-gradient-to-t dark:from-[#13293D] dark:to-[#1E4161] to-[#5EA7D4] from-[#338BC1]">
+                <img src="assets/images/fmp/fullfmplogo.png" alt="FRESHMusicPlayer" class="w-[350px] mb-[10px] md:w-[500px]" />
+                <span class="py-[50px] text-dark-primarytext">the freshest music player out there</span><br />
+
+                <button class="btn mt-[50px]">
+                    Project page
+                </button>
+            </div>
+        </a>
+
+        <!--{% for item in site.data.projects %}
         {% if item.category == "Featured" %}
-        <div class="bg-foreground dark:bg-dark-foreground rounded-lg px-[50px] py-[20px] h-[300px] w-[100%] hover:bg-blue">
+        <div class="bg-foreground dark:bg-dark-foreground rounded-lg px-[50px] py-[20px] h-[300px] w-[100%] hover:bg-blue {{ background }}">
             <img src="{{ item.wordmark }}" alt="{{ item.name }}" class="w-[350px] md:w-[500px]" />
             <span class="py-[20px]">{{ item.description }}</span><br />
 
@@ -31,6 +42,7 @@ title: "Happy Jekylling!"
             </button>
         </div>
         {% endif %}
-        {% endfor %}
+        {% endfor %}-->
     </div>
+    <a href="aaa" class="text-right text-md"><p>All projects ></p></a>
 </div>

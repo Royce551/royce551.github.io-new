@@ -1,15 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\css",
-    "\\assets\\images",
-    "\\assets\\images\\fmp",
-    "\\_data",
-    "\\_drafts",
-    "\\_includes",
-    "\\_layouts",
-    "\\_posts"
+    "\\royce551.github.io-new",
+    "\\royce551.github.io-new\\_includes",
+    "\\royce551.github.io-new\\_site",
+    "\\royce551.github.io-new\\_site\\assets",
+    "\\royce551.github.io-new\\_site\\assets\\css"
   ],
+  "SelectedNode": "\\royce551.github.io-new\\index.html",
   "PreviewInSolutionExplorer": false
 }

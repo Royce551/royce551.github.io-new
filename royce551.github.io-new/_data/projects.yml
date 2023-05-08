@@ -4,6 +4,7 @@
   icon: /assets/images/fmplogo.svg
   wordmark: assets/images/fmp/fullfmplogo.png
   category: Featured
+  background: bg-gradient-to-r from-cyan-500 to-blue-500
 - name: ShrimpBot
   description: all purpose discord bot
   link: https://github.com/royce551/shrimpbot
