@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Home - Squid House"
 ---
 
 <div class="bg-secondary dark:bg-dark-secondary flex flex-nowrap overflow-x-scroll p-[20px] gap-8 snap-x snap-mandatory">
     {% for item in site.posts %}
         <div class="snap-center px-[10px] lg:px-[80px] py-[100px] bg-foreground/50 dark:bg-dark-foreground/50 min-w-[100%] lg:min-w-[90%] bg-control dark:bg-dark-control bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url('{{ item.thumbnail }}');">
-            <h1 class="text-md font-bold">{{ item.title }}</h1>
+            <p class="text-md font-bold">{{ item.title }}</p>
             <p>{{ item.excerpt }}</p>
 
             <button class="btn mt-[100px]">

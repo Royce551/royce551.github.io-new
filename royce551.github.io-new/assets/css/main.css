@@ -13,4 +13,12 @@
     .btn {
         @apply bg-control dark:bg-dark-control hover:bg-blue rounded-md py-[20px] px-[30px] md:py-[10px] md:px-[20px]
     }
+
+    .h1 {
+        @apply text-xl font-bold
+    }
+
+    .h2 {
+        @apply text-md font-bold
+    }
 }
