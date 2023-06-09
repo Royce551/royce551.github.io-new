@@ -6,6 +6,7 @@ module.exports = {
         './_posts/*.md',
         './*.md',
         './*.html',
+        './FRESHMusicPlayer/*.html'
     ],
     theme: {
         colors: {
@@ -21,10 +22,10 @@ module.exports = {
             'red': '#d5463f',
             'dark-primarytext': '#FFFFFF',
             'dark-secondarytext': '#DADADA',
-            'dark-foreground': '#272A30',
-            'dark-secondary': '#1E2024',
-            'dark-background': '#17191C',
-            'dark-control': '#30343B',
+            'dark-foreground': '#22252A',
+            'dark-secondary': '#16191D',
+            'dark-background': '#0B0D0E',
+            'dark-control': '#686F73',
         },
         fontFamily: {
             sans: ['Source Sans 3', 'sans-serif'],
