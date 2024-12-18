@@ -3,5 +3,5 @@
 .jekyll-metadata
 node_modules
 .vs/
-.vs
+/.vs
 /.vs/slnx.sqlite
