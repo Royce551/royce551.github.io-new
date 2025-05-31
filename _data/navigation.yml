@@ -1,18 +1,12 @@
-- name: Home
-  link: /index.html
-  icon: /assets/images/fmplogo.svg
 - name: FRESHMusicPlayer
   link: /FRESHMusicPlayer/
   icon: /assets/images/fmplogo.svg
-- name: FRESHLyricMaker
+- name: Condownloader
   link: /FRESHMusicPlayer/
-  icon: /assets/images/fmplogo.svg
-- name: Water
+  icon: /assets/images/condownloader.svg
+- name: Kotomi
   link: /FRESHMusicPlayer/
-  icon: /assets/images/fmplogo.svg
-- name: squish
+  icon: /assets/images/placeholdericon.svg
+- name: Chii
   link: /FRESHMusicPlayer/
-  icon: /assets/images/fmplogo.svg
-- name: More
-  link: /SquidHouse/otherprojects.html
-  icon: /assets/images/fmplogo.svg
+  icon: /assets/images/placeholdericon.svg
