@@ -598,6 +598,9 @@ video {
 .max-h-\[54px\] {
   max-height: 54px;
 }
+.max-h-screen {
+  max-height: 100vh;
+}
 .w-8 {
   width: 2rem;
 }

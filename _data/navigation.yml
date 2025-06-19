@@ -2,11 +2,11 @@
   link: /FRESHMusicPlayer/
   icon: /assets/images/fmplogo.svg
 - name: Condownloader
-  link: /FRESHMusicPlayer/
+  link: /Condownloader/
   icon: /assets/images/condownloader.svg
 - name: Kotomi
-  link: /FRESHMusicPlayer/
+  link: /Kotomi/
   icon: /assets/images/placeholdericon.svg
 - name: Chii
-  link: /FRESHMusicPlayer/
+  link: /Chii/
   icon: /assets/images/placeholdericon.svg

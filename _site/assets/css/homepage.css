@@ -10,8 +10,7 @@ html {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right bottom;
-    background-color: #13293D
+    background-position: right top;
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,12 +32,10 @@ html {
 }
 
 .mainstyleoffsetless {
-    position: absolute;
-    top: 50px;
-    left: 10vw;
+    margin-left: 10vw;
 }
 
-@media (width < 48rem) {
+@media (width < 60rem) {
     html {
         background-position: left top;
     }
@@ -53,12 +50,12 @@ html {
     }
 
     .mainstyleoffsetless {
-        position: absolute;
         top: 0%;
         left: 0%;
         right: 0%;
         bottom: 0%;
-        margin: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
